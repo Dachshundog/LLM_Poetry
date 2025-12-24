@@ -47,6 +47,5 @@ This project explores the potential of Large Language Models (LLMs) to model
    #运行前记得修改input json的path
    使用 VS Code 终端 或者打开anaconda在上面新建环境LLMPoetry里执行 ：
    ```bash
-   python LLM_Poem.py --temperature 0.2 --max_poems 10   #默认 0.2, 检索类任务
+   python LLM_Poem.py --temperature 0.2 --max_poems 20   #默认 0.2, 检索类任务, 调试过程中只导出前20条
    ```
-
